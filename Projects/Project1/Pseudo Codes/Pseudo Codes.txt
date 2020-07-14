@@ -1,0 +1,178 @@
+The pseudo code writing is going to be in form of functioons. There are almost 10
+functions in the main program. Pseudo codes are written as simple as they could.
+
+
+
+function main(){
+
+	start timer
+	display the rules of the game
+	playGame()			//This is the method
+}
+
+
+function playGame(){
+	Create a player
+	for i = 0 to 13
+		playTurn(player)	//This is the method
+	displa total score	
+}
+
+function playTurn(player){
+	RollAllDice(player)		//Roll dice method
+	showDices(Player)		//Show dice method
+	for i = 0 to 2
+		while(user want to record his score)
+			record the score
+		rollSpecificDice(player)	//Method
+		showDices(player)		//Method
+	calculateScore(player) 			//Method
+
+	display the score
+	ask the user choice
+	display updated board	
+
+}
+
+function showDices(Player player){
+	for i = 0 to totaldices
+		Display dice number
+}
+
+function rollAllDice(Player player){
+	for i = 0 to totaldices
+		Roll the dice
+}
+
+function rollDice(Dice dice){
+	generate random dice number
+}
+
+function rollSpecificDice(Player player){
+	display the rolling message
+	for i = 0 to totalDice
+		while(user give the valid string)
+			if valid input
+				turn on the flag	
+}
+
+function getIndex(string choice){
+	Create categories
+	for i = 0 to 13
+		if choice == category
+			return true	
+	return false
+}
+
+function recordScore(Player player, string choice) {
+	i = getIndex(choice);
+	if (i == -1 || player.scorecard.categorySelected[i] == true || player.scorecard.categoryPoints[i] == nullptr)
+		display invalid message
+		return false
+	
+	calculateScore(player)
+	player.scorecard.categorySelected[i] = true
+	for j = 0 to 13
+		if player.scorecard.categorySelected[j] == false 		
+			player.scorecard.categoryPoints[j] = nullptr
+	return true
+}
+
+function displayCurrentScoreBoard(Player player) 
+{
+	create categories
+	for i = 0 to 13
+		display current scoreboard
+}
+
+function displayUpdatedScoreBoard(Player player) 
+{
+	display score and category
+	for i = 0 to 13 
+		if player.scorecard.categoryPoints[i] != nullptr
+			display category points
+		
+		else
+			displa category names
+		
+}
+
+function calculateScore(Player player) 
+{
+	all variables are initialized to 0
+	for i = 0 to 5
+		if player.dices[i].number == 1 ones++
+		if player.dices[i].number == 2 twos++
+		if player.dices[i].number == 3 threes++
+		if player.dices[i].number == 4 fours++
+		if player.dices[i].number == 5 fives++
+		if player.dices[i].number == 6 sixes++
+	if (ones >= 3 || twos >= 3 || threes >= 3 || fours >= 3 || fives >= 3 || sixes >= 3)
+		for i = 0 to 5		{
+			threeKind += player.dices[i].number;
+
+	if (ones >= 4 || twos >= 4 || threes >= 4 || fours >= 4 || fives >= 4 || sixes >= 4)
+		for i = 0 to 5		
+			fourKind += player.dices[i].number;
+		
+	
+	if ((ones == 3 && (twos == 2 || threes == 2 || fours == 2 || fives == 2 || sixes == 2))
+		|| (twos == 3 && (ones == 2 || threes == 2 || fours == 2 || fives == 2 || sixes == 2))
+		|| (threes == 3 && (ones == 2 || twos == 2 || fours == 2 || fives == 2 || sixes == 2))
+		|| (fours == 3 && (ones == 2 || twos == 2 || threes == 2 || fives == 2 || sixes == 2))
+		|| (fives == 3 && (ones == 2 || twos == 2 || threes == 2 || fours == 2 || sixes == 2))
+		|| (sixes == 3 && (ones == 2 || twos == 2 || threes == 2 || fours == 2 || fives == 2)))
+	
+		fullHouse = 25;
+	
+	if ((ones >= 1 && twos >= 1 && threes >= 1 && fours >= 1)
+		|| (twos >= 1 && threes >= 1 && fours >= 1 && fives >= 1)
+		|| (threes >= 1 && fours >= 1 && fives >= 1 && sixes >= 1))
+	
+		smallStraight = 30;
+	
+	if ((ones >= 1 && twos >= 1 && threes >= 1 && fours >= 1 && fives >= 1)
+		|| (twos >= 1 && threes >= 1 && fours >= 1 && fives >= 1 && sixes >= 1))
+	
+		largeStraight = 40;
+	
+	if (ones == 5 || twos == 5 || threes == 5 || fours == 5 || fives == 5 || sixes == 5)
+	
+		yahtzee = 50;
+	
+	for i = 0 to 5
+		chance += player.dices[i].number;
+	
+	ones *= 1
+	twos *= 2
+	threes *= 3
+	fours *= 4
+	fives *= 5
+	sixes *= 6
+
+	
+	difine vals tags
+	for i = 0 to 13
+		if (!player.scorecard.categorySelected[i]) 
+			if (val[i] > 0) 
+				player.scorecard.categoryPoints[i] = new int(val[i]);
+				found = true;
+			else 
+				player.scorecard.categoryPoints[i] = nullptr;
+			
+		
+	if (not found) 
+		for i = 0 to 13 
+			if (!player.scorecard.categorySelected[i]) 
+				player.scorecard.categoryPoints[i] = new int{ 0 };
+			
+		
+	
+}
+
+int totalScore(Player& player) 
+{
+	int totalScore = 0;
+	for i = 0 to 13
+		display total score of a player
+}
