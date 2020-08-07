@@ -1,12 +1,4 @@
-/* 
- * File:   Table.h
-<<<<<<< HEAD
- * Author: Cruz, Valentinno
-=======
- * Author: Cruz, Valentinno 
- * Created on July 20, 2021, 03:04 AM
->>>>>>> 09da2ad3b493ac25c605f1db11b18726f81eb20e
- */
+
 
 #ifndef TABLE_H
 #define	TABLE_H

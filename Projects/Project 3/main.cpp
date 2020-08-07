@@ -1,11 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Cruz, Valentinno 
-<<<<<<< HEAD
-=======
- * Created on August 05, 2021, 11:27 AM
  * Purpose: CSC_17A_14_SUMMER_Project_3_Battleship
->>>>>>> 09da2ad3b493ac25c605f1db11b18726f81eb20e
  */
 /* 
  * Table x
