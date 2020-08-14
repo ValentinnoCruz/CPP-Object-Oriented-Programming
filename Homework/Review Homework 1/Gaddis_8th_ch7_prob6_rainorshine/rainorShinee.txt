@@ -1,0 +1,112 @@
+The month of June Weather Conditions
+==================================================
+Day 1		c
+Day 2		c
+Day 3		c
+Day 4		c
+Day 5		c
+Day 6		c
+Day 7		c
+Day 8		c
+Day 9		c
+Day 10		c
+Day 11		c
+Day 12		c
+Day 13		c
+Day 14		c
+Day 15		c
+Day 16		c
+Day 17		c
+Day 18		c
+Day 19		c
+Day 20		c
+Day 21		c
+Day 22		r
+Day 23		r
+Day 24		r
+Day 25		r
+Day 26		r
+Day 27		r
+Day 28		r
+Day 29		r
+Day 30		v
+==================================================
+The total rainy days in the month of June is 8
+The total cloudy days in the month of June is 21
+The total sunny days in the month of June is 1
+
+The month of July Weather Conditions
+==================================================
+Day 1		c
+Day 2		c
+Day 3		c
+Day 4		c
+Day 5		c
+Day 6		c
+Day 7		c
+Day 8		c
+Day 9		c
+Day 10		c
+Day 11		c
+Day 12		c
+Day 13		c
+Day 14		c
+Day 15		c
+Day 16		c
+Day 17		c
+Day 18		r
+Day 19		r
+Day 20		r
+Day 21		r
+Day 22		r
+Day 23		r
+Day 24		s
+Day 25		s
+Day 26		s
+Day 27		s
+Day 28		s
+Day 29		s
+Day 30		s
+==================================================
+The total rainy days in the month of July is 6
+The total cloudy days in the month of July is 17
+The total sunny days in the month of July is 7
+
+The month of August Weather Conditions
+==================================================
+Day 1		s
+Day 2		s
+Day 3		s
+Day 4		s
+Day 5		s
+Day 6		s
+Day 7		s
+Day 8		s
+Day 9		s
+Day 10		s
+Day 11		s
+Day 12		s
+Day 13		s
+Day 14		s
+Day 15		s
+Day 16		s
+Day 17		s
+Day 18		s
+Day 19		s
+Day 20		s
+Day 21		s
+Day 22		s
+Day 23		s
+Day 24		s
+Day 25		s
+Day 26		s
+Day 27		s
+Day 28		s
+Day 29		s
+Day 30		s
+==================================================
+The total rainy days in the month of August is 0
+The total cloudy days in the month of August is 0
+The total sunny days in the month of August is 30
+
+The month: July has the biggest amount of rainfall.
