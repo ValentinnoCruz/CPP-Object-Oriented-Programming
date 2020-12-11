@@ -1,7 +1,6 @@
 /* 
  * File:   Why.h
  * Author: Cruz, Valentinno 
- * Created on July 20, 2021, 03:04 AM
  */
 
 #ifndef WHY_H

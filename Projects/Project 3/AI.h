@@ -1,7 +1,6 @@
 /* 
  * File:   AI.h
  * Author: Cruz, Valentinno 
- * Created on August 05, 2021, 11:27 AM
  */
 
 #ifndef AI_H

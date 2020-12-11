@@ -1,7 +1,6 @@
 /* 
  * File:   Table.h
- * Author: Cruz, Valentinno 
- * Created on July 20, 2021, 03:04 AM
+ * Author: Cruz, Valentinno
  */
 
 #ifndef TABLE_H
