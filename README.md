@@ -1,4 +1,4 @@
-﻿# CSE 100: Algorithm Design and Analysis
+﻿# CSC 17a: C++ Programming
 The application of software engineering techniques to the design and development of large programs; data abstraction, structures, and associated algorithms. A comprehensive study of the syntax and semantics of the C++ language and the methodology of Object-Oriented program development. 54 hours lecture and 18 hours laboratory
 
 
